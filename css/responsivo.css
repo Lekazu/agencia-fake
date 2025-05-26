@@ -1,37 +1,136 @@
-@media screen and (max-width: 1005px) {
-    .navbar{
-        position: relative;
+/* Telas até 1200px - laptops */
+@media screen and (max-width: 1200px) {
+    .navbar {
+        padding: 10px 0;
     }
-    .menu{
+
+    .menu a {
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+    .img-headline img {
+        width: 85%;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+/* Telas até 992px - tablets grandes */
+@media screen and (max-width: 992px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .menu {
         display: none;
     }
-    .logo{
+
+    .logo {
         margin: 0;
         text-align: center;
     }
-    .header{
+
+    .header {
         padding-top: 50px;
+        flex-direction: column;
     }
-    .headline{
+
+    .headline {
         flex: 100%;
         margin: 5%;
         text-align: center;
     }
-    .headline p{
+
+    .headline h2 {
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    .headline p {
         text-align: center;
     }
-    .img-headline{
+
+    .img-headline {
         flex: 100%;
         margin: 5%;
         text-align: center;
     }
-    .card{
-        width: 100%;
+
+    .img-headline img {
+        width: 80%;
     }
-    .whats{
+
+    .card {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    section h2 {
+        font-size: 40px;
+    }
+
+    .whats {
         display: none;
     }
-
-
 }
 
+/* Telas até 768px - tablets pequenos */
+@media screen and (max-width: 768px) {
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .contact-btn {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+}
+
+/* Telas até 576px - celulares */
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+
+    .logo h1 {
+        font-size: 26px;
+    }
+
+    .headline h2 {
+        font-size: 28px;
+    }
+
+    .contact-btn {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+}

@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
     font-family: "Roboto", sans-serif;
-   
 }
-.navbar{
+
+.navbar {
     display: flex;
-    flex-flow:row wrap ;
+    flex-flow: row wrap;
     height: 100px;
     background: white;
     justify-content: center;
@@ -18,34 +19,38 @@ body{
     position: fixed;
     width: 100%;
 }
-.logo{
+
+.logo {
     flex: 20%;
     margin-left: 10%;
-    /* border: 1px solid red; */
     text-align: left;
 }
-.logo h1{
+
+.logo h1 {
     font-family: "Lobster", sans-serif;
     color: #180F4A;
     font-size: 34px;
 }
-.menu{
+
+.menu {
     flex: 70%;
-    /* border: 1px solid green; */
     text-align: right;
     padding: 20px;
 }
-.menu a{
+
+.menu a {
     color: #180F4A;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
 }
-.menu a:hover{
+
+.menu a:hover {
     color: #FF2978;
     border-top: 4px solid #180F4A;
 }
-#botao{
+
+#botao {
     background: #180F4A;
     padding: 10px 25px;
     color: white;
@@ -53,11 +58,13 @@ body{
     margin-right: 10%;
     margin-left: 5%;
 }
-#botao:hover{
+
+#botao:hover {
     border: none;
     background: #FF2978;
-}    
-.header{
+}
+
+.header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -65,23 +72,25 @@ body{
     background: white;
     padding-top: 100px;
 }
-.headline{
+
+.headline {
     margin-left: 10%;
     flex: 40%;
-    /* border: 1px solid black; */
 }
-.headline h2{
+
+.headline h2 {
     font-weight: 900;
     font-size: 20px;
     color: #180F4A;
-    padding: 0;
     margin: 0;
 }
-.headline p{
+
+.headline p {
     color: gray;
     text-align: left;
 }
-.contact-btn{
+
+.contact-btn {
     display: inline-block;
     background: #FF2978;
     padding: 20px;
@@ -90,26 +99,27 @@ body{
     border-radius: 5px;
     text-decoration: none;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     background: #180F4A;
 }
-.img-headline{
+
+.img-headline {
     margin-right: 10%;
     flex: 40%;
-    /* border: 1px solid deeppink; */
     text-align: center;
 }
-section{
+
+section {
     display: inline-block;
     margin-top: 80px;
-    /* border: 1px solid black; */
     margin-left: 5%;
     margin-right: 5%;
     padding: 5%;
     text-align: center;
-    
 }
-section h2{
+
+section h2 {
     width: 100%;
     font-size: 50px;
     margin: 0;
@@ -117,55 +127,64 @@ section h2{
     font-weight: bold;
     color: #180F4A;
 }
-.servico{
+
+.servico {
     display: inline-block;
     margin: 5%;
 }
-.card{
+
+.card {
     display: inline-block;
     width: 30%;
     padding: 20px;
-    margin:1%;
+    margin: 1%;
     border: 1px solid #FF2978;
     border-radius: 10px;
     cursor: pointer;
 }
-.card:hover{
+
+.card:hover {
     background: #FF2978;
     color: white;
     padding: 40px;
 }
-.card:hover img{
-    display: none;
-}
-.card:hover .card-text{
-    display: none;
-}
-.card:hover .texto-oculto{
-    display: block;
-}
-.texto-oculto{
+
+.card:hover img {
     display: none;
 }
 
-footer{
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+.texto-oculto {
+    display: none;
+}
+
+footer {
     margin-top: 100px;
     height: 400px;
-    background-image:linear-gradient(180deg,#180F4a,#090422,black);
+    background-image: linear-gradient(180deg, #180F4a, #090422, black);
     text-align: center;
     border-top: 5px solid #FF2978;
 }
-.logo-rodape{
+
+.logo-rodape {
     padding: 100px;
 }
-.agencia{
+
+.agencia {
     font-family: "Lobster", sans-serif;
     color: white;
-    font-size: 34px;  
+    font-size: 34px;
 }
-.whats{
+
+.whats {
     position: fixed;
     bottom: 5px;
     right: 5px;
-    
 }
